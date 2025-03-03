@@ -1,4 +1,4 @@
-package com.example.user_service.dto;
+package com.example.user_service.Auth;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UserDTO {
-    private String firstName;
-    private String lastName;
-    private String email;
+public class AuthenticationResponse {
+    private int status;
+    private String token;
+    private String message;
 }

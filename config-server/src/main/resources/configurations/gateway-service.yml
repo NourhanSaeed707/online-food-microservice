@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/v1/users/**
+
+server:
+  port: 82222
+management:
+  tracing:
+    sampling:
+      probability: 1.0
