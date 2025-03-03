@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/restaurants
+    url: jdbc:postgresql://localhost:5432/orders
     username: postgres
     password: password
   jpa:
@@ -10,7 +10,7 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 server:
-  port: 8070
+  port: 8080
 management:
   tracing:
     sampling:
