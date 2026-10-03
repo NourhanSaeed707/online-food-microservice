@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Management System — Microservices
+# 🍽️ Online Food — Microservices
 
 A **Java Spring Boot Microservices** project designed to demonstrate a distributed restaurant management system using modern backend technologies and microservices architecture.
 
